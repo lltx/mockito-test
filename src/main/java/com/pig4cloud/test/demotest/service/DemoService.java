@@ -1,5 +1,7 @@
 package com.pig4cloud.test.demotest.service;
 
+import com.pig4cloud.test.demotest.vo.DeepVo;
+
 /**
  *
  * @author lengleng
@@ -7,4 +9,6 @@ package com.pig4cloud.test.demotest.service;
  */
 public interface DemoService {
 	String demo();
+
+	DeepVo demo1();
 }
