@@ -10,4 +10,8 @@ public class DeepVo {
 	public String foo() {
 		return "deep good";
 	}
+
+	public String foo2(String a, String b) {
+		return "foo2";
+	}
 }
